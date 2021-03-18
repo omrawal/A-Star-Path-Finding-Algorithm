@@ -1,0 +1,3 @@
+pipenv install 'module_name'
+pipenv install # to install all requirements just like npm install
+pipenv shell   or pipenv run     #to acivate 
