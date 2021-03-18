@@ -19,3 +19,19 @@ TURQUOISE = (64, 224, 208)
 
 
 class Spot:
+    def __init__(self, row, col, width, total_rows):
+        self.x = row*width
+        self.y = col*width
+        self.row = row
+        self.col = col
+        self.color = WHITE
+        self.neighbors = []
+        self.total_rows = total_rows
+
+    def get_pos(self):
+        return self.row, self.col
+
+    def is_closed(self):
+        return self.color == RED
+
+    def
