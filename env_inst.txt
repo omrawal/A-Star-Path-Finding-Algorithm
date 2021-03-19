@@ -1,9 +1,9 @@
-pipenv install 'module_name'
-pipenv install # to install all requirements just like npm install
-pipenv shell   or pipenv run     #to acivate 
 
-
-
+pip install virtualenv
+mkdir Environments
+cd Environments
+virtualenv envir_name
+envir_name\Scripts\activate.bat
 
 
 Video Thumb 29.00
